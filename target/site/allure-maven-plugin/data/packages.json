@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 10409,
+    "maxDuration" : 18804,
+    "sumDuration" : 29213,
+    "start" : 1617920319168,
+    "stop" : 1617920352267,
+    "duration" : 33099
+  },
+  "children" : [ {
+    "uid" : "cbc94b0ce381c2f5",
+    "name" : "ExampleTest",
+    "time" : {
+      "minDuration" : 10409,
+      "maxDuration" : 10409,
+      "sumDuration" : 10409,
+      "start" : 1617920319168,
+      "stop" : 1617920329577,
+      "duration" : 10409
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "ed613ebbe950a839",
+      "name" : "loginViaEmail",
+      "time" : {
+        "start" : 1617920319168,
+        "stop" : 1617920329577,
+        "duration" : 10409
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "6d3cca4dda8beb85",
+    "name" : "SearchInCatalogTest",
+    "time" : {
+      "minDuration" : 18804,
+      "maxDuration" : 18804,
+      "sumDuration" : 18804,
+      "start" : 1617920333463,
+      "stop" : 1617920352267,
+      "duration" : 18804
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "1bfd6f1ed9ca04d6",
+      "name" : "searchAndCheckFavorites",
+      "time" : {
+        "start" : 1617920333463,
+        "stop" : 1617920352267,
+        "duration" : 18804
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

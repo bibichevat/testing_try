@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 10409,
+    "maxDuration" : 18804,
+    "sumDuration" : 29213,
+    "start" : 1617920319168,
+    "stop" : 1617920352267,
+    "duration" : 33099
+  },
+  "children" : [ {
+    "uid" : "9db8e6098ea2b775",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 10409,
+      "maxDuration" : 18804,
+      "sumDuration" : 29213,
+      "start" : 1617920319168,
+      "stop" : 1617920352267,
+      "duration" : 33099
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "c62b6d67e0ae180",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 10409,
+        "maxDuration" : 18804,
+        "sumDuration" : 29213,
+        "start" : 1617920319168,
+        "stop" : 1617920352267,
+        "duration" : 33099
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "ed613ebbe950a839",
+        "name" : "Авторизация",
+        "time" : {
+          "start" : 1617920319168,
+          "stop" : 1617920329577,
+          "duration" : 10409
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "1bfd6f1ed9ca04d6",
+        "name" : "Поиск по каталогу, добавление в закладки",
+        "time" : {
+          "start" : 1617920333463,
+          "stop" : 1617920352267,
+          "duration" : 18804
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

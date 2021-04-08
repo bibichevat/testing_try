@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SelenideAutoTests" verbose="1">
+
+    <listeners>
+        <listener class-name="A_BaseTestListener"/>
+    </listeners>
+
+    <test name="TestLogin">
+        <classes>
+            <class name="ExampleTest" />
+        </classes>
+    </test>
+
+        <test name="TestCatalog">
+            <classes>
+                <class name="SearchInCatalogTest" />
+            </classes>
+        </test>
+
+    <!--    <test name="TestPrice">-->
+    <!--        <parameter name="price" value="1000" />-->
+    <!--        <classes>-->
+    <!--            <class name="PriceTest" />-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+</suite>

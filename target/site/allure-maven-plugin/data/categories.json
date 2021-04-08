@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 18804,
+    "maxDuration" : 18804,
+    "sumDuration" : 18804,
+    "start" : 1617920333463,
+    "stop" : 1617920352267,
+    "duration" : 18804
+  },
+  "children" : [ {
+    "uid" : "e14eb63b81164b4d",
+    "name" : "Product defects",
+    "time" : {
+      "minDuration" : 18804,
+      "maxDuration" : 18804,
+      "sumDuration" : 18804,
+      "start" : 1617920333463,
+      "stop" : 1617920352267,
+      "duration" : 18804
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "ad94751dd33ecb9c",
+      "name" : "Element not found {By.xpath: .//*[@class='addto-wishlist heart-empty heart_918494']}\nExpected: visible or transparent",
+      "time" : {
+        "minDuration" : 18804,
+        "maxDuration" : 18804,
+        "sumDuration" : 18804,
+        "start" : 1617920333463,
+        "stop" : 1617920352267,
+        "duration" : 18804
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "1bfd6f1ed9ca04d6",
+        "name" : "Поиск по каталогу, добавление в закладки",
+        "time" : {
+          "start" : 1617920333463,
+          "stop" : 1617920352267,
+          "duration" : 18804
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

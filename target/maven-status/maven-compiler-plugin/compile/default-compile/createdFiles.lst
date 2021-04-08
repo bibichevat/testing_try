@@ -1,0 +1,11 @@
+app\PageBuilder.class
+app\App.class
+app\pages\LoginPage.class
+helpers\Trim.class
+app\pages\CatalogPage.class
+app\services\FilterPage.class
+helpers\TestConfig.class
+helpers\Driver.class
+app\pages\BasePage.class
+app\pages\PricePage.class
+app\AppConfig.class

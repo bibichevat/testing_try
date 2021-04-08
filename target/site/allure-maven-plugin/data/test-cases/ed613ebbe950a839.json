@@ -1,0 +1,97 @@
+{
+  "uid" : "ed613ebbe950a839",
+  "name" : "Авторизация",
+  "fullName" : "ExampleTest.loginViaEmail",
+  "historyId" : "2beb1496d7c213d21b74241e23a37820",
+  "time" : {
+    "start" : 1617920319168,
+    "stop" : 1617920329577,
+    "duration" : 10409
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1617920318672,
+      "stop" : 1617920319049,
+      "duration" : 377
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearCookies",
+    "time" : {
+      "start" : 1617920329873,
+      "stop" : 1617920332518,
+      "duration" : 2645
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1617920332549,
+      "stop" : 1617920333402,
+      "duration" : 853
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ExampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ExampleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginViaEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SelenideAutoTests"
+  }, {
+    "name" : "suite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "ExampleTest"
+  }, {
+    "name" : "host",
+    "value" : "Татьяна-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "1040@Татьяна-ПК.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

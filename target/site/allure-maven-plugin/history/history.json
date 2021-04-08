@@ -1,0 +1,41 @@
+{
+  "2beb1496d7c213d21b74241e23a37820" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed613ebbe950a839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617920319168,
+        "stop" : 1617920329577,
+        "duration" : 10409
+      }
+    } ]
+  },
+  "66b21e4ad92f01dbf929bc9e3e3a10f3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bfd6f1ed9ca04d6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: .//*[@class='addto-wishlist heart-empty heart_918494']}\nExpected: visible or transparent",
+      "time" : {
+        "start" : 1617920333463,
+        "stop" : 1617920352267,
+        "duration" : 18804
+      }
+    } ]
+  }
+}
